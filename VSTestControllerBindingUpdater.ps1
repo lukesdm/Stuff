@@ -3,7 +3,7 @@
 # Also, this script may adjust the formatting of the config file.
 # For more info, see MSDN 'How to: Bind a Test Controller or Test Agent to a Network Adapter' (https://msdn.microsoft.com/en-us/library/ff934571.aspx)
 
-# Author: Luke McQuade 30-Jan-2015. License: MIT (see end of file)
+# Author: Luke McQuade (https://github.com/lukesdm) 30-Jan-2015. License: MIT (see end of file)
 
 param(
   $NICAlias = "Ethernet", # Alias of the network adapter you want the Test Controller to communicate on - you can find it by manually running Powershell command Get-NetIPAddress
